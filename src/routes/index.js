@@ -1,17 +1,19 @@
 import { Component } from 'react'
 import { HashRouter, Route, Redirect, Switch } from 'react-router-dom'
 
-import Home from '../views/home/index.jsx'
-import Good from '../views/good/index.jsx'
+import Login from '../layout/login.jsx'
+import Layout from '../layout/index.jsx'
+import User from '../views/user/index.jsx'
 
 class RouterMap extends Component {
   render () {
     return (
       <HashRouter>
         <Switch>
-          <Route path="/home" component={Home} exact />
-          <Route path="/good" component={Good} exact />
-          <Redirect to="/home" />
+          <Route path="/login" component={Login} exact />
+          <Route path="/layout" component={Layout} exact />
+          <Route path="/layout/user" component={User} exact />
+          <Redirect to="/login" />
         </Switch>
       </HashRouter>
     )
