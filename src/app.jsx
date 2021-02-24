@@ -1,11 +1,9 @@
 import { Component } from 'react'
-import { Button } from 'antd'
+import RouterMap from './routes'
 export default class App extends Component {
   render () {
     return (
-      <div>
-        <Button type="primary">Button</Button>
-      </div>
+      <RouterMap />
     )
   }
 }
