@@ -11,7 +11,11 @@
     "@testing-library/user-event": "^12.1.10",
     "@typescript-eslint/eslint-plugin": "^4.5.0",
     "@typescript-eslint/parser": "^4.5.0",
+<<<<<<< HEAD
     "antd": "^4.14.1",
+=======
+    "antd": "^4.12.3",
+>>>>>>> 2bf902d3ef2b067802ecf796268f2393869a778c
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.6.0",
     "babel-loader": "8.1.0",
@@ -55,6 +59,7 @@
     "react-dev-utils": "^11.0.2",
     "react-dom": "^17.0.1",
     "react-refresh": "^0.8.3",
+    "react-router-dom": "^5.2.0",
     "resolve": "1.18.1",
     "resolve-url-loader": "^3.1.2",
     "sass-loader": "^10.0.5",
